@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Task() {
-  const url = "http://jsonplaceholder.typicode.com/todos";
+  const url = "https://jsonplaceholder.typicode.com/todos";
   const [id, setId] = useState("");
   const [title, setTitle] = useState("");
   const [tasks, setTasks] = useState([]);
